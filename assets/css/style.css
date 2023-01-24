@@ -6,12 +6,17 @@ body {
     text-align: center;
 }
 
+banner {
+    width: 100%;
+    height: auto;
+}
+
 h1,
 h2 {
     color: darkred;
 }
 
-h3, 
+h3,
 p,
 li {
     color: green;
@@ -19,7 +24,6 @@ li {
 
 img {
     width: 100%;
-    height: auto;
     max-width: 100%;
 }
 
@@ -38,7 +42,7 @@ nav ul {
 }
 
 nav li {
-    display: inline;
+    display: inline-block;
 }
 
 nav a {
@@ -58,13 +62,7 @@ nav a:hover {
     background-color: white;
 }
 
-#banner img {
-    width: 60%;
-    height: auto;
-}
-
-.service {
-    display: inline-block;
+#service {
     background-color: white;
     border: 5px solid green;
     border-radius: 5px;
@@ -78,7 +76,7 @@ table {
     border: 3px solid black;
     width: 100%;
 }
-  
+
 td,
 th {
     border: 1px solid black;
